@@ -1,7 +1,9 @@
 const counter = (state = 0, action = {}) => {
     switch(action.type) {
-        case 'INCERWENT':
+        case 'INCEADD':
             return state + 1;
+        case 'INCEDEL':
+            return state - 1;
         default: return state;
     }
 }
