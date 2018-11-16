@@ -1,0 +1,14 @@
+.wrapper{
+  width: 100%;
+  display: flex;
+}
+.wrapper > div{
+  width: 50%;
+  text-align: center;
+}
+.wrapper .left{
+  background: #f00;
+}
+.wrapper .right{
+  background: #ff0;
+}
