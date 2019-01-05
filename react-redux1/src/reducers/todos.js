@@ -1,4 +1,4 @@
-const counter = (state = 0, action = {}) => {
+const todos = (state = 0, action = {}) => {
     switch(action.type) {
         case 'INCEADD':
             return state + 1;
@@ -8,4 +8,4 @@ const counter = (state = 0, action = {}) => {
     }
 }
 
-export default counter;
+export default todos;
